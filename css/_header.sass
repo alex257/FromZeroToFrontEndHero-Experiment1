@@ -1,0 +1,105 @@
+header
+  display: flex
+  position: relative
+  justify-content: center
+  color: white
+  &::after
+    content: ''
+    position: absolute
+    display: block
+    background: white
+    left: 470px
+    top: 215px
+    height: 68px
+    width: 68px
+    border-radius: 50%
+
+  .container
+    width: 600px
+    height: 250px
+    display: flex
+    flex-direction: column
+    //padding-top: 20px
+    background: 
+
+      image: url("https://preview.ibb.co/hNKzUn/unsplash.jpg") 
+
+      position: center right
+      color: $main-color
+      blend-mode: multiply
+      size: 100%
+
+    .row
+      display: flex
+
+      .dots
+        span
+          display: inline-block
+          background: white
+          width: 8px
+          height: 8px
+          border-radius: 50%
+          margin: 1.5px
+          margin-top: 10px
+          &:first-child
+            margin-left: 8px
+        .transparent
+          background: transparent
+          border: 1px solid white
+          width: 8px
+          height: 8px
+    
+      
+
+      .time
+        display: flex
+        justify-content: center
+        h4 
+          color: white 
+          text-transform: uppercase
+          text-align: center
+          margin-top: -1px
+          font-weight: 300
+          padding-top: 1px
+
+      .battery
+        display: flex 
+        justify-content: flex-end
+        svg 
+          margin-right: 7px
+          font-size: 26px
+      
+    .arrow-dots-row
+      margin-top: 22px
+
+      .dots2 
+        display: flex 
+        justify-content: flex-end
+        span 
+          height: 6px
+          width: 6px
+          border-radius: 50%
+          background: #ffffff 
+          display: inline-block
+          margin-right: 5px
+          &:last-child
+            margin-right: 22px
+  
+      .left-arrow
+        width: 17px
+        height: 17px
+        margin-left: 30px
+        border-bottom: 3px solid white
+        border-left: 3px solid white
+        transform: rotate(45deg) 
+
+  .heading
+    font-size: 2rem
+    margin: 100px 0 0 30px
+    font-weight: 300
+    padding-top: 18px
+    letter-spacing: 1.2px
+
+  
+
+
